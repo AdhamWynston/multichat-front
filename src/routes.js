@@ -1,23 +1,9 @@
 const routes = [
     {
-        path: '/congratulations',
-        component: resolve => require(['./components/pages/congratulations.vue'], resolve),
+        path: '/chat',
+        component: resolve => require(['./components/pages/chat.vue'], resolve),
         meta: {
             title: 'Avaliação enviada',
-        }
-    },
-    {
-        path: '/',
-        component: resolve => require(['./components/pages/evaluation.vue'], resolve),
-        meta: {
-            title: 'Avaliação',
-        }
-    },
-    {
-        path: '/:secure_id',
-        component: resolve => require(['./components/pages/evaluation.vue'], resolve),
-        meta: {
-            title: 'Avaliação',
         }
     }
 ]
